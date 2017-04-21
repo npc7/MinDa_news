@@ -7,8 +7,8 @@ import pymysql.cursors
 
 # Connect to the database
 connection = pymysql.connect(host='localhost',
-                             user='root',
-                             password='wsad1234',
+                             user='db user name',
+                             password='db password',
                              db='minda_news',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
