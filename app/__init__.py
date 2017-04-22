@@ -1,7 +1,11 @@
+# !/usr/bin/python
 # -*- coding: utf-8 -*-
+
 from config import config
 from flask import Flask
 from flask.ext.mysql import MySQL
+
+__author__ = 'AidChow'
 
 db = MySQL()
 

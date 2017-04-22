@@ -1,6 +1,11 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+
 import pymysql.cursors
 
 """run this file to create your databases"""
+
+__author__ = 'AidChow'
 
 # Connect to the database
 connection = pymysql.connect(host='localhost',

@@ -1,3 +1,6 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -5,6 +8,7 @@ import pymysql.cursors
 
 """this file to spider the data and into your databases"""
 
+__author__ = 'AidChow'
 # Connect to the database
 connection = pymysql.connect(host='localhost',
                              user='db user name',

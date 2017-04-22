@@ -1,6 +1,11 @@
+# ！/usr/bin/python
+# -*- coding: utf-8 -*-
+
 from . import news
 from .. import db
 from flask import jsonify
+
+__author__ = 'AidChow'
 
 
 @news.route('/list/<page>', methods=['GET'])

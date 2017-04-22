@@ -1,5 +1,10 @@
+# ！/usr/bin/python
+# -*- coding: utf-8 -*-
+
 from .view import news
 from flask import jsonify
+
+__author__ = 'AidChow'
 
 
 @news.app_errorhandler(404)

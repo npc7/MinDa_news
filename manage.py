@@ -1,3 +1,8 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+
+__author__ = 'AidChow'
+
 import os
 from flask.ext.script import Manager, Shell
 from app import create_app
@@ -8,6 +13,7 @@ manager = Manager(app)
 
 def make_shell_context():
     return dict(app=app)
+
 
 manager.add_command("shell", Shell(make_context=make_shell_context()))
 
