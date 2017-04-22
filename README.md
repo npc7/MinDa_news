@@ -32,7 +32,7 @@ when finish above configuration now we can run this project
 
 >Tips: All the operation must in the virtual envirment
 
-##NEWS API
+## NEWS API
 
 1. news list will return a list
     >url http:127.0.0.1/news/api/list/pages
@@ -105,4 +105,4 @@ method `get`
 }
 ```
 
-##END
+## END
